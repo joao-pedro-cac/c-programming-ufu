@@ -22,7 +22,8 @@ int main() {
 	return 0;
 }
 
-unsigned long int soma(unsigned int n) {                            // Soma de Gauss (forma recursiva)
+// Soma de Gauss (forma recursiva)
+unsigned long int soma(unsigned int n) {
 	if (n == 1) {
 		return 1;
 	}
