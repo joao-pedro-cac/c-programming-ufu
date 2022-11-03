@@ -10,7 +10,7 @@
 int main() {
 	// Inicialização de variáveis
 	int n1, n2;                                   // Números
-    printf("NUMS: ");
+        printf("NUMS: ");
 	scanf("%d %d", &n1, &n2);
 
 	// Cálculo de operações aritméticas
