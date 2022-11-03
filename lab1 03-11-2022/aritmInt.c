@@ -18,7 +18,7 @@ int main() {
 	printf("%d - %d = %d\n", n1, n2, n1 - n2);    // Subtração
 	printf("%d x %d = %d\n", n1, n2, n1 * n2);    // Multiplicação
 	printf("%d / %d = %d\n", n1, n2, n1 / n2);    // Divisão inteira
-	printf("%d %% %d = %d\n", n1, n2, n1 % n2);  // Resto da divisão
+	printf("%d %% %d = %d\n", n1, n2, n1 % n2);   // Resto da divisão
 
 	return 0;
 }
