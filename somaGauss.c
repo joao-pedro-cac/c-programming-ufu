@@ -7,26 +7,22 @@
 
 #include <stdio.h>
 
-int soma(int n);
+unsigned long int soma(unsigned int n);
 
 int main() {
-	int num;
+	// Inicialização de variáveis
+	unsigned int num;                                               // Número
 	printf("NUM: ");
-	scanf("%d", &num);
+	scanf("%u", &num);
 
-	if (num <= 1) {
-		printf("ERRO! NÚMERO DEVE SER MAIOR QUE 1...");
-		return -1;
-	}
-
-	int sum = soma(num);
-
-	printf("SOMA GAUSS = %d\n", sum);
+	// Cálculo da soma de Gauss
+	unsigned long int sum = soma(num);                                   // Obtém a soma de Gauss
+	printf("SOMA GAUSS = %lu\n", sum);
 
 	return 0;
 }
 
-int soma(int n) {
+unsigned long int soma(unsigned int n) {                                          // Soma de Gauss (forma recursiva)
 	if (n == 1) {
 		return 1;
 	}
