@@ -17,10 +17,17 @@ int main() {
 	printf("ALTURA (m): ");
 	scanf("%f", &h);
 
-	float imc = m / (h * h);
+	// Captura de erros
+	if (m <= 0 || h <= 0) {
+		printf("ERRO! PESO E ALTURA DEVEM SER POSITIVOS\n");
+		return -1;
+	}
 
+	// Cálculo de IMC
+	float imc = m / (h * h);
 	printf("IMC = %.2f (", imc);
 
+	// Mensagem de IMC
 	if (imc < 16) {
 		printf("Perigo de vida");
 	}

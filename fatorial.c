@@ -22,7 +22,7 @@ int main() {
 	return 0;
 }
 
-unsigned long int fatorial(unsigned int n) {
+unsigned long int fatorial(unsigned int n) {                   // Função de fatorial (forma recursiva)
 	if (n == 0) {
 		return 1;
 	}

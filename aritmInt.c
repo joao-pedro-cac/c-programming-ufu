@@ -8,10 +8,12 @@
 #include <stdio.h>
 
 int main() {
+	// Inicialização de variáveis
 	int n1, n2;                                   // Números
     printf("NUMS: ");
 	scanf("%d %d", &n1, &n2);
 
+	// Cálculo de operações aritméticas
 	printf("%d + %d = %d\n", n1, n2, n1 + n2);    // Adição
 	printf("%d - %d = %d\n", n1, n2, n1 - n2);    // Subtração
 	printf("%d x %d = %d\n", n1, n2, n1 * n2);    // Multiplicação

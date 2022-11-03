@@ -16,13 +16,13 @@ int main() {
 	scanf("%u", &num);
 
 	// Cálculo da soma de Gauss
-	unsigned long int sum = soma(num);                                   // Obtém a soma de Gauss
+	unsigned long int sum = soma(num);                              // Obtém a soma de Gauss
 	printf("SOMA GAUSS = %lu\n", sum);
 
 	return 0;
 }
 
-unsigned long int soma(unsigned int n) {                                          // Soma de Gauss (forma recursiva)
+unsigned long int soma(unsigned int n) {                            // Soma de Gauss (forma recursiva)
 	if (n == 1) {
 		return 1;
 	}
