@@ -5,3 +5,4 @@ Uberlândia). Each paste keeps a set of algorithms belonging to a unique collect
 collection was available.
 
 - **lab1 03-11-2022:** Collection of problems #1 (November 3rd, 2022).
+- **lab2 24-11-2022:** Collection of problems #2 (November 24th, 2022).
