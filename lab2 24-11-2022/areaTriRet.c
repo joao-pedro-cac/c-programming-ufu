@@ -14,7 +14,7 @@ int main() {
 	float xA, yA;
 	float xB, yB;
 	float xC, yC;
-	float area = modulo(3.0);
+	float area;
 
 	printf("A: (x, y) = ");
 	scanf("%f %f", &xA, &yA);

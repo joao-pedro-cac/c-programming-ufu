@@ -11,18 +11,22 @@ int main() {
 	// Variáveis
 	int a, b;
 
-	printf("a: ");
-	scanf("%d", &a);
+	printf("   Insira dois números (a < b)\n\n");
+	printf("\ta, b: ");
+	scanf("%d %d", &a, &b);
 
-	printf("b: ");
-	scanf("%d", &b);
+	// Captura de erros
+	if (a > b) {
+		printf("\nERRO! O número a deve ser menor que b...\n");
+		return -1;
+	}
 
 	// Se a é par, então a + 1 é ímpar
 	if (!(a % 2)) {
 		a++;
 	}
 
-	printf("ÍMPARES: ");
+	printf("\nÍMPARES: ");
 
 	// Laço de ímpares (2 em 2)
 	for (int i = a; i <= b; i += 2) {

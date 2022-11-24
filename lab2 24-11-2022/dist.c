@@ -20,7 +20,7 @@ int main() {
 	printf("B: (x, y) = ");
 	scanf("%f %f", &xB, &yB);
 
-	dist = sqrtf(pow(xA - xB, 2) + pow(yA - yB, 2));    // Equação de distância
+	dist = sqrtf(powf(xA - xB, 2) + powf(yA - yB, 2));    // Equação de distância
 
 	printf("\nDistância AB = %f\n", dist);
 
