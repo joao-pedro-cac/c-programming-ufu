@@ -55,6 +55,7 @@ int main() {
 	return 0;
 }
 
+
 // Função de verificação de número primo
 int isPrime(uint num) {
 	if (num <= 1) {
@@ -70,11 +71,11 @@ int isPrime(uint num) {
 	return 1;                                     // Senão, 'num' é primo
 }
 
+
 int isHappy(uint num) {
 	if (num == 1) {
 		return 1;                                 // Se o número resultante for 1, então é um número FELIZ
 	}
-
 	if (num == 4) {
 		return 0;                                 // Senão, se o número resultante for 4, então é um número INFELIZ
 	}
@@ -83,6 +84,7 @@ int isHappy(uint num) {
 
 	return isHappy(sumQuad);                      // Senão, a função invariante se repete
 }
+
 
 // Função de soma dos quadrados dos dígitos
 uint sumQuadDigits(uint num) {
