@@ -33,7 +33,7 @@ int main() {
 	}
 
 	// Resultado final
-	printf("SOMA = %d\n", sum);
+	printf("   SOMA = %d\n", sum);
 
 	return 0;
 }

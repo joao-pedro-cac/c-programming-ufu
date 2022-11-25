@@ -26,7 +26,7 @@ int main() {
 		a++;
 	}
 
-	printf("\nÍMPARES: ");
+	printf("\n   ÍMPARES: ");
 
 	// Laço de ímpares (2 em 2)
 	for (int i = a; i <= b; i += 2) {
