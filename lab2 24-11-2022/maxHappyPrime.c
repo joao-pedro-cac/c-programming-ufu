@@ -36,9 +36,9 @@ int main() {
 	printf("   Maior primo feliz de 1 a %d: ", num);
 
 	// Cálculo de maior número primo e feliz
-	for (uint i = num; i > 1; i--) {
+	for (uint i = num; i > 1; i--) {              // De 'num' a 2 (ordem decrescente) -> O primeiro primo feliz será o maior
 		if (isPrime(i) && isHappy(i)) {
-			happyNum = i;
+			happyNum = i;                         // Se há um número primo e feliz, então ele será o maior
 			break;
 		}
 	}
