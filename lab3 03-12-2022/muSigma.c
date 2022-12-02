@@ -34,7 +34,7 @@ int main() {
 	avg = average(nums, N, N - 1);                                          // Média
 	dp = standardDeviation(nums, N, avg);                                   // Desvio padrão
 
-	// Impressão dos resultaldos
+	// Impressão dos resultados
 	printf("\nMÉDIA ARITMÉTICA   %g\n", avg);
 	printf("DESVIO PADRÃO      %g\n", dp);
 
@@ -60,5 +60,5 @@ float standardDeviation(float nums[], uint size, float avg) {
 		var += diff * diff / size;
 	}
 
-	return sqrtf(var);
+	return sqrtf(var);                                                      // Retorna a raíz quadrada da variância (desvio padrão)
 }
