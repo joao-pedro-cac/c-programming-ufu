@@ -35,10 +35,10 @@ int main() {
 		printf("%g ", *(nums + i));
 
 		if (i < N - 1) {
-			printf("+ ");                    // Caso não seja o último número, imprime '+'
+			printf("+ ");                                  // Caso não seja o último número, imprime '+'
 		}
 		else {
-			printf("= ");                    // Caso seja o último número, imprime '='
+			printf("= ");                                  // Caso seja o último número, imprime '='
 		}
 	}
 
@@ -48,10 +48,11 @@ int main() {
 	return 0;
 }
 
+// Função de somatório (recursiva)
 float sumArray(float arr[], int index) {
 	if (index < 0) {
-		return 0;
+		return 0;                                          // Ao ultrapassar o primeiro elemento, retorna 0
 	}
 
-	return *(arr + index) + sumArray(arr, index - 1);
+	return *(arr + index) + sumArray(arr, index - 1);      // Soma o elemento atual com o elemento anterior
 }
