@@ -17,6 +17,7 @@ int main() {
 	printf("# de números: ");
 	scanf("%u", &N);
 
+	// Vetor de números
 	int nums[N];
 
 	printf("NUMS: ");
@@ -27,6 +28,7 @@ int main() {
 	printf("REFERÊNCIA: ");
 	scanf("%d", &ref);
 
+	// Impressão dos números
 	for (int i = 0; i < N; i++) {
 		printf("%d", *(nums + i));
 
