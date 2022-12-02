@@ -27,7 +27,7 @@ int main() {
 		scanf("%f", nums + i);
 	}
 
-	// Somatório dos números do vetor
+	// Somatório dos números do vetor (começando pelo último elemento)
 	sum = sumArray(nums, N - 1);
 
 	// Impressão do somatório
