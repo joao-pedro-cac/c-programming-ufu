@@ -9,7 +9,7 @@
 
 typedef unsigned int uint;
 
-float sumArray(float arr[], int size);
+float sumArray(float arr[], int index);
 
 int main() {
 	// Variáveis
