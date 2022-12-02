@@ -35,8 +35,8 @@ int main() {
 	dp = standardDeviation(nums, N, avg);                                   // Desvio padrão
 
 	// Impressão dos resultaldos
-	printf("\nMÉDIA\t\t %g\n", avg);
-	printf("DESVIO PADRÃO\t %g\n", dp);
+	printf("\nMÉDIA ARITMÉTICA   %g\n", avg);
+	printf("DESVIO PADRÃO      %g\n", dp);
 
 	return 0;
 }
