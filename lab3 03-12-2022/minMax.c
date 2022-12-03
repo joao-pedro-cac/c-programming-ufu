@@ -54,11 +54,11 @@ int main() {
 
 // Função de menor número em um vetor
 int minArray(int arr[], uint size) {
-	int minNum = arr[0];
+	int minNum = arr[0];                            // O menor elemento é o primeiro do vetor
 
-	for (int i = 1; i < size; i++) {
+	for (int i = 1; i < size; i++) {                // Verifica a lista a partir do segundo elemento
 		if (*(arr + i) < minNum) {
-			minNum = *(arr + i);
+			minNum = *(arr + i);                    // Se houver um número ainda menor que 'minNum', então a variável é atualizada
 		}
 	}
 
@@ -68,11 +68,11 @@ int minArray(int arr[], uint size) {
 
 // Função de maior número em um vetor
 int maxArray(int arr[], uint size) {
-	int maxNum = arr[0];
+	int maxNum = arr[0];                            // O maior elemento é o primeiro do vetor
 
-	for (int i = 1; i < size; i++) {
+	for (int i = 1; i < size; i++) {                // Verifica a lista a partir do segundo elemento
 		if (*(arr + i) > maxNum) {
-			maxNum = *(arr + i);
+			maxNum = *(arr + i);                    // Se houver um número ainda maior que 'maxNum', então a variável é atualizada
 		}
 	}
 
