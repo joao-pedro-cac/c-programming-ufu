@@ -20,4 +20,4 @@
 
 ## Hard problems
 
-- `cosTaylor.c`: Approximation of cos(_πx_) by Taylor series. The sum goes from 1 to an _n_ integer rather than to infinity.
+- `cosTaylor.c`: Approximation of cos(_πx_) by Taylor series. The sum goes from 1 to an integer _n_ rather than to infinity.
