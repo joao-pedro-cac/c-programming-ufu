@@ -9,14 +9,12 @@
 - `fatorial.c`: Factorial function.
 - `imc.c`: BMI calculator.
 
----
 
 ## Medium problems
 
 - `somaDivisores.c`: Sum of all positive factors of a number.
 - `fibonacci.c`: Fibonacci sequence with an unusual form of **for** loop.
 
----
 
 ## Hard problems
 
