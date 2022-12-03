@@ -6,17 +6,13 @@
 
 - `minMax.c`: Given a list of numbers, outputs them and prints **>** right after the largest one and **<** right after the smallest one.
 - `quaisDiv.c`: Given a sequence of numbers and a number _n_, prints their elements followed by an **#** if the number is a divisor of _n_.
-- `somatorio.c`: Given an array of numbers, outputs their sum.
-- `produtorio.c`: Given a list of numbers, outputs their product.
-
----
+- `somatorio.c`: Given some numbers, outputs their sum.
+- `produtorio.c`: Given some numbers, outputs their product.
 
 ## Medium problems
 
 - `muSigma.c`: Given some numbers, displays their arithmetic average and standard deviation.
 - `remNegativos.c`: Given a sequence of numbers, displays every non-negative element. If there are none, outputs _vazio_ (empty), meaning "there are no non-negative elements".
-
----
 
 ## Hard problems
 
