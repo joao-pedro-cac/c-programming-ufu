@@ -11,7 +11,7 @@
 
 ## Medium problems
 
-- `muSigma.c`: Given some numbers, displays their arithmetic average and standard deviation.
+- `muSigma.c`: Given some numbers, displays their [arithmetic average](https://en.wikipedia.org/wiki/Arithmetic_mean) and [standard deviation](https://en.wikipedia.org/wiki/Standard_deviation).
 - `remNegativos.c`: Given a sequence of numbers, displays every non-negative element. If there are none, outputs _vazio_ (empty), meaning "there are no non-negative elements".
 
 ## Hard problems
