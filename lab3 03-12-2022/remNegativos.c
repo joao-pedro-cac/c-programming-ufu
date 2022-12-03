@@ -2,7 +2,7 @@
  * Arquivo: remNegativos.c
  * Autor: João Pedro Cavalcante Albuquerque Costa
  * Matrícula: 12121ECP021
- * Criado em: 02/12/2022
+ * Criado em: 03/12/2022
  */
 
 #include <stdio.h>
