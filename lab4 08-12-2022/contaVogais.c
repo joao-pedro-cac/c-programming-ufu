@@ -11,26 +11,31 @@
 
 typedef unsigned int uint;
 
-void getStr(char str[], uint size);                            // Função de entrada de string
-uint countVowel(char str[], uint size);                        // Função de contagem de vogais
-void toUpper(char str[], uint size);                           // Função de tornar letras maiúsculas
+void getStr(char str[], uint size);
+uint countVowel(char str[], uint size);
+void toUpper(char str[], uint size);
 
 int main() {
-	char text[N];                                              // Texto (máx. 1023 caracteres)
-	uint numVowels;                                            // Número de vogais
+	char text[N];
+	uint numVowels;
 
 	printf("TEXTO (sem diacríticos): ");
-	getStr(text, N);                                           // Entrada de string pelo usuário
+	getStr(text, N);
 
 	numVowels = countVowel(text, N);                           // Número de vogais em 'text'
 
-	printf("\nQuantidade de vogais: %d\n", numVowels);         // Resultado final
+	printf("\nQuantidade de vogais: %d\n", numVowels);
 
 	return 0;
 }
 
 
 void toUpper(char str[], uint size) {
+	/*
+	 * Função de tornar letras maiúsculas
+	 * 'i' é o índice do i-ésimo caractere
+	 */
+
 	uint i = 0;
 
 	while (str[i]) {                                           // Enquanto 'str[i]' não for '\0'
@@ -44,11 +49,16 @@ void toUpper(char str[], uint size) {
 
 
 uint countVowel(char str[], uint size) {
-	uint c = 0;                                                // Contador de vogais
+	/*
+	 * Função de contagem de vogais
+	 * 'c' é o contador de vogais
+	 */
+
+	uint c = 0;
 	toUpper(str, size);                                        // String se torna maiúscula -> desconsidera os casos de verificação para letras minúsculs
 
 	for (uint i = 0; i < size; i++) {
-		switch (str[i]) {                                      // Caso o i-ésimo caractere seja 'A', 'B', 'C', 'D' ou 'E', adiciona 1 ao contador
+		switch (str[i]) {
 			case 'A':
 				c++;
 				break;
@@ -72,17 +82,22 @@ uint countVowel(char str[], uint size) {
 
 
 void getStr(char str[], uint size) {
-	uint i = 0;                                                // Índice do i-ésimo caractere
+	/*
+	 * Função de entrada de string
+	 * 'i' é o índice do i-ésimo caractere
+	 */
+
+	uint i = 0;
 
 	while (1) {
 		if (i >= size - 1) {
 			break;                                             // Caso 'i' ultrapasse o tamanho da string, quebra a sequência de entradas
 		}
 
-		scanf("%c", &str[i]);                                  // Entrada do i-ésimo caractere
+		scanf("%c", &str[i]);
 
 		if (str[i] == '\n') {
-			break;                                             // Caso o i-ésimo caractere seja uma quebra de linha (ENTER), quebra a sequência de entradas
+			break;
 		}
 
 		i++;
