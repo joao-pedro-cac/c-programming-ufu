@@ -32,13 +32,12 @@ int main() {
 
 
 char* dectobin(ullong num) {
-	// Função de conversão de número em bit string
+	// Função de conversão de número para binário (bit string)
 
 	uint tam = 1;
 	char *bitstring = (char*) malloc(2);
 
 	bitstring[0] = '0';                                        // Garante impressão caso 'num' seja 0
-
 
 	while (num) {
 		bitstring[tam - 1] = (num % 2) + '0';
@@ -48,9 +47,7 @@ char* dectobin(ullong num) {
 	}
 
 	bitstring[tam] = '\0';
-
 	char *bitInv = reverse(bitstring);
-
 	free(bitstring);
 
 	return bitInv;
