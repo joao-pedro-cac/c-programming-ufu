@@ -12,7 +12,7 @@
 
 typedef unsigned int uint;
 
-char* reverse(char str[], uint size);
+char* reverse(char str[]);
 void getStr(char str[], uint size);
 uint lenStr(char str[]);
 void toUpper(char str[], uint size);
@@ -24,7 +24,7 @@ int main() {
 	printf("TEXTO (sem diacríticos): ");
 	getStr(text, N);
 
-	invText = reverse(text, N);
+	invText = reverse(text);
 	toUpper(invText, sizeof(invText));
 
 	printf("\nTexto revertido: %s\n", invText);
@@ -35,19 +35,20 @@ int main() {
 }
 
 
-char* reverse(char str[], uint size) {
+char* reverse(char str[]) {
 	// Função de inversão de string
+	
+	uint i = 0;
+	uint size = lenStr(str);
+	char *inv = (char*) malloc(size + 1);
 
-	char *p;
-	uint i;
-	uint tam = lenStr(str);
+	while (*(str + i)) {
+		inv[i] = str[size - 1 - i];
+		i++;
+	}
 
-	p = (char*) malloc(tam + 1);
-
-	for (i = 0; i < tam; i++) p[tam - 1 - i] = str[i];         // Cada i-ésimo elemento de 'str' se torna o (size - i)-ésimo elemento de 'p'
-	p[tam] = '\0';                                             // Último caractere útil se torna '\0'
-
-	return p;
+	inv[i] = '\0';
+	return inv;
 }
 
 
