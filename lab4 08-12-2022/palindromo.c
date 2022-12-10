@@ -20,7 +20,7 @@ int main() {
 	char *txt;
 	char pal;
 
-	printf("TEXTO: ");
+	printf("TEXTO (sem diacríticos): ");
 
 	txt = strinput();
 	pal = isPalindrome(txt);
