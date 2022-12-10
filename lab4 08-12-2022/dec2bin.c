@@ -20,7 +20,7 @@ int main() {
 	ullong num;
 	char *bitNum;
 
-	printf("NUM (max. 64 bits): ");
+	printf("DEC (max. 64 bits): ");
 	scanf("%llu", &num);
 
 	bitNum = dectobin(num);
