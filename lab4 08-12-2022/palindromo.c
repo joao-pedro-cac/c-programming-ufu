@@ -1,3 +1,10 @@
+/*
+ * Arquivo: palindromos.c
+ * Autor: João Pedro Cavalcante Albuquerque Costa
+ * Matrícula: 12121ECP021
+ * Criado em: 09/12/2022
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
