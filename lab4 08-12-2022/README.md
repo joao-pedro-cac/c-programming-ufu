@@ -16,4 +16,4 @@
 
 ## Hard problems
 
-- `contaPalavras.c`: 
+- `contaPalavras.c`: Displays the amount of words in a text. A word is considered a collection of letters, digits and hyphens.
