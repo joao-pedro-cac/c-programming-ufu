@@ -1,30 +1,73 @@
 /*
- * Arquivo: fib.c
+ * Arquivo: datas.c
  * Autor: João Pedro Cavalcante Albuquerque Costa
  * Matrícula: 12121ECP021
  * Criado em: 05/01/2023
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 
+typedef unsigned char byte;
 typedef unsigned int uint;
+typedef struct Date Date;
 
-uint fib(uint n);
+char* format(byte val);
+char* attrYear(uint year);
+
+struct Date {
+	char *dia;
+	char *mes;
+	char *ano;
+};
 
 int main() {
-	uint n, res;
+	char meses[12][4] = {"JAN\0", "FEV\0", "MAR\0", "ABR\0", "MAI\0", "JUN\0", "JUL\0", "AGO\0", "SET\0", "OUT\0", "NOV\0", "DEZ\0"};
 
-	printf("NUM: ");
-	scanf("%u", &n);
+	Date data;
+	byte d;
+	byte m;
+	uint a;
 
-	res = fib(n);
-	printf("FIBONACCI: %u\n", res);
+	printf("DATA (D/M/YYYY): ");
+	scanf("%hhu/%hhu/%u", &d, &m, &a);
+
+	data.dia = format(d);
+	data.mes = format(m);
+	data.ano = attrYear(a);
+
+	printf("%s.%s.%s\t", data.dia, data.mes, data.ano);
+	printf("%s-%s-%s\t", data.mes, data.dia, data.ano);
+	printf("%s/%s/%c%c\t", data.dia, data.mes, data.ano[2], data.ano[3]);
+	printf("%s%s%s\n", data.dia, meses[m - 1], data.ano);
 
 	return 0;
 }
 
-uint fib(uint n) {
-	if (!n) return 0;
-	else if (n == 1 || n == 2) return 1;
-	else return fib(n - 1) + fib(n - 2);
+
+char* format(byte val) {
+	char *par = (char *) malloc(3);
+
+	par[0] = val / 10 + '0';
+	par[1] = val % 10 + '0';
+	par[2] = '\0';
+
+	return par;
+}
+
+
+char* attrYear(uint year) {
+	char *ano = (char *) malloc(5);
+
+	ano[0] = year / 1000 + '0';
+	year %= 1000;
+	ano[1] = year / 100 + '0';
+	year %= 100;
+	ano[2] = year / 10 + '0';
+	year %= 10;
+	ano[3] = year / 1 + '0';
+	year %= 1;
+	ano[4] = '\0';
+
+	return ano;
 }
