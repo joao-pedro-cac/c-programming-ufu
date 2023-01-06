@@ -8,3 +8,4 @@ collection was available.
 - **lab2 24-11-2022:** Collection of problems #2 (November 24th, 2022).
 - **lab3 01-12-2022:** Collection of problems #3 (December 1st, 2022).
 - **lab4 08-12-2022:** Collection of problems #4 (December 8th, 2022).
+- **lab5 05-01-2023:** Collection of problems #5 (January 5th, 2023).
