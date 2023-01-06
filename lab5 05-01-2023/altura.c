@@ -1,5 +1,5 @@
 /*
- * Arquivo: altura.c
+ * Arquivo: fib.c
  * Autor: João Pedro Cavalcante Albuquerque Costa
  * Matrícula: 12121ECP021
  * Criado em: 05/01/2023
@@ -9,23 +9,22 @@
 
 typedef unsigned int uint;
 
-uint adjustCm(uint x);
+uint fib(uint n);
 
 int main() {
-	uint m, cm;
+	uint n, res;
 
-	printf("ALTURA (m): ");
-	scanf("%u.%u", &m, &cm);
+	printf("NUM: ");
+	scanf("%u", &n);
 
-	cm = adjustCm(cm);
-	printf("Altura %um%u\n", m, cm);
+	res = fib(n);
+	printf("FIBONACCI: %u\n", res);
 
 	return 0;
 }
 
-uint adjustCm(uint x) {
-	// Ajuste dos centímetros para duas casas decimais
-	if (x < 10) return x * 10;
-	if (x > 99) return adjustCm(x / 10);
-	return x;
+uint fib(uint n) {
+	if (!n) return 0;
+	else if (n == 1 || n == 2) return 1;
+	else return fib(n - 1) + fib(n - 2);
 }
