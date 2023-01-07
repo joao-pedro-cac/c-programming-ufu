@@ -2,7 +2,7 @@
  * Arquivo: aproxpi.c
  * Autor: João Pedro Cavalcante Albuquerque Costa
  * Matrícula: 12121ECP021
- * Criado em: 05/01/2023
+ * Criado em: 06/01/2023
  */
 
 #include <stdio.h>
