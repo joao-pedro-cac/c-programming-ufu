@@ -2,7 +2,7 @@
  * Arquivo: datas.c
  * Autor: João Pedro Cavalcante Albuquerque Costa
  * Matrícula: 12121ECP021
- * Criado em: 05/01/2023
+ * Criado em: 06/01/2023
  */
 
 #include <stdio.h>
@@ -59,13 +59,13 @@ char* format(byte val) {
 char* attrYear(uint year) {
 	char *ano = (char *) malloc(5);
 
-	ano[0] = year / 1000 + '0';
+	ano[0] = year / 1000 + '0';               // Milhar
 	year %= 1000;
-	ano[1] = year / 100 + '0';
+	ano[1] = year / 100 + '0';                // Centena
 	year %= 100;
-	ano[2] = year / 10 + '0';
+	ano[2] = year / 10 + '0';                 // Dezena
 	year %= 10;
-	ano[3] = year / 1 + '0';
+	ano[3] = year / 1 + '0';                  // Unidade
 	year %= 1;
 	ano[4] = '\0';
 
