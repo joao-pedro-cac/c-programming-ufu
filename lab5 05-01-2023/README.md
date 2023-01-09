@@ -16,4 +16,4 @@
 
 ## Hard problems
 
-- `cadastro.c`: Basic registry of people.
+- `cadastro.c`: Basic people register.
