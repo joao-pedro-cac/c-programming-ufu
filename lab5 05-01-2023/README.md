@@ -4,8 +4,8 @@
 
 ## Easy problems
 
-- `mdc.c`: Calculates the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) (GDC) of two integers.
-- `fib.c`: Displays the *n*th term of the Fibonacci Sequence.
+- `mdc.c`: [Greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) (GDC) of two integers.
+- `fib.c`: *n*th term of the Fibonacci Sequence.
 - `altura.c`: Given a height value in meters, displays it formatted as [METERS]m[CENTIMETERS].
 - `datas.c`: Given a date, exhibits it in four distinct formats.
 
