@@ -4,16 +4,16 @@
 
 ## Easy problems
 
-- `mdc.c`:
-- `fib.c`:
-- `altura.c`:
-- `datas.c`:
+- `mdc.c`: Calculates the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) (GDC) of two integers.
+- `fib.c`: Displays the *n*th term of the Fibonacci Sequence.
+- `altura.c`: Given a height value in meters, displays it formatted as [METERS]m[CENTIMETERS].
+- `datas.c`: Given a date, exhibits it in four distinct formats.
 
 ## Medium problems
 
-- `aproxpi.c`:
-- `racionais.c`:
+- `aproxpi.c`: Calculates an approximation to pi by using the [Gregory-Leibniz Series](https://crypto.stanford.edu/pbc/notes/pi/glseries.html).
+- `racionais.c`: Basic arithmetic with rational numbers represented as fractions.
 
 ## Hard problems
 
-- `cadastro.c`:
+- `cadastro.c`: Basic registry of people.
