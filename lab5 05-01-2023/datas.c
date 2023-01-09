@@ -41,6 +41,10 @@ int main() {
 	printf("%s/%s/%c%c\t", data.dia, data.mes, data.ano[2], data.ano[3]);
 	printf("%s%s%s\n", data.dia, meses[m - 1], data.ano);
 
+	free(data.dia);
+	free(data.mes);
+	free(data.ano);
+
 	return 0;
 }
 
