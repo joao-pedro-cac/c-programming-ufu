@@ -11,7 +11,7 @@
 
 ## Medium problems
 
-- `aproxpi.c`: Calculates an approximation to pi by using the [Gregory-Leibniz Series](https://crypto.stanford.edu/pbc/notes/pi/glseries.html).
+- `aproxpi.c`: Approximation to pi by using the [Gregory-Leibniz Series](https://crypto.stanford.edu/pbc/notes/pi/glseries.html).
 - `racionais.c`: Basic arithmetic with rational numbers represented as fractions.
 
 ## Hard problems
