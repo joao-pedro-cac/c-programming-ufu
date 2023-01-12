@@ -7,7 +7,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdio_ext.h>
 
 
 typedef unsigned int uint;
@@ -44,14 +43,12 @@ int main() {
 	uint qntd;
 
 	printf("No. PESSOAS: ");
-	scanf("%u", &qntd);
+	scanf("%u%*c", &qntd);
 
 	Info cadastros[qntd];
 
 	// Loop de entradas
 	for (uint i = 0; i < qntd; i++) {
-		__fpurge(stdin);                                                                                                                      // Limpar o buffer do teclado
-
 		// Entrada de nome
 		printf("NOME #%u: ", i + 1);
 		cadastros[i].nome = strinput();
@@ -66,7 +63,7 @@ int main() {
 
 		// Entrada de peso
     	printf("PESO #%u (kg): ", i + 1);
-	    scanf("%f", &cadastros[i].peso);
+	    scanf("%f%*c", &cadastros[i].peso);
 
 	    cadastros[i].altura.cm = adjustCm(cadastros[i].altura.cm);
 
