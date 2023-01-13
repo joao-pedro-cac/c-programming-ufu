@@ -25,14 +25,14 @@ int main() {
 	}
 
 
-	byte n = solveQuadratic(a, b, c, &x1, &x2);
+	byte n = solveQuadratic(a, b, c, &x1, &x2);                            // Solução da equação quadrática
 
 
 	printf("\n");
 
-	if (!n) printf("NÃO HÁ RAÍZES\n");
-	else if (n == 1) printf("x = %g\n", x1);
-	else {
+	printf("No. RAIZES: %hhu\n", n);
+	if (n == 1) printf("x = %g\n", x1);
+	else if (n == 2) {
 		printf("x1 = %g\n", x1);
 		printf("x2 = %g\n", x2);
 	}
