@@ -74,10 +74,10 @@ int findInText(char *str, char *txt) {
 	bool check = false;                                                // Checagem de presença
 	const int sizeStr = strlength(str);
 
-	while (txt[i] != '\0') {
-		if (txt[i] == str[0]) {
+	while (*(txt + i) != '\0') {
+		if (*(txt + i) == *str) {
 			for (int j = 0; j < sizeStr; j++) {                        // Verifica se o trecho está contido a partir do índice 'i' atual
-				if (txt[i + j] != str[j]) {
+				if (*(txt + i + j) != *(str + j)) {
 					check = false;
 					break;
 				}
