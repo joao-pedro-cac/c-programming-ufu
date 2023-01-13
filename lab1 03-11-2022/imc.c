@@ -28,30 +28,14 @@ int main() {
 	printf("IMC = %.2f (", imc);
 
 	// Mensagem de IMC
-	if (imc < 16) {
-		printf("Perigo de vida");
-	}
-	else if (imc < 17) {
-		printf("Muito abaixo do peso");
-	}
-	else if (imc < 18.5) {
-		printf("Abaixo do peso");
-	}
-	else if (imc < 25) {
-		printf("Peso normal");
-	}
-	else if (imc < 30) {
-		printf("Acima do peso");
-	}
-	else if (imc < 35) {
-		printf("Obesidade grau I");
-	}
-	else if (imc < 40) {
-		printf("Obesidade grau II");
-	}
-	else {
-		printf("Obesidade grau III");
-	}
+	if (imc < 16) printf("Perigo de vida");
+	else if (imc < 17) printf("Muito abaixo do peso");
+	else if (imc < 18.5) printf("Abaixo do peso");
+	else if (imc < 25) printf("Peso normal");
+	else if (imc < 30) printf("Acima do peso");
+	else if (imc < 35) printf("Obesidade grau I");
+	else if (imc < 40) printf("Obesidade grau II");
+	else printf("Obesidade grau III");
 	
 	printf(")\n");
 	return 0;
