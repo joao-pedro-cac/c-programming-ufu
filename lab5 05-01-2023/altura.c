@@ -8,23 +8,29 @@
 #include <stdio.h>
 
 typedef unsigned int uint;
+typedef struct Comprimento Comprimento;
 
 uint adjustCm(uint x);
 
+struct Comprimento {
+	uint m;
+	uint cm;
+};
+
 int main() {
-	uint m, cm;
+	Comprimento altura;
 
 	printf("ALTURA (m): ");
-	scanf("%u.%u", &m, &cm);
+	scanf("%u.%u", &(altura.m), &(altura.cm));
 
-	cm = adjustCm(cm);
-	printf("Altura %um%u\n", m, cm);
+	altura.cm = adjustCm(altura.cm);
+	printf("Altura %um%u\n", altura.m, altura.cm);
 
 	return 0;
 }
 
+// Ajuste dos centímetros para duas casas decimais
 uint adjustCm(uint x) {
-	// Ajuste dos centímetros para duas casas decimais
 	if (x < 10) return x * 10;
 	if (x > 99) return adjustCm(x / 10);
 	return x;
