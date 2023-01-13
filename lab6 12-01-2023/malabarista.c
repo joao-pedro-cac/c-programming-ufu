@@ -19,7 +19,7 @@ luint juggler(luint n);
 int main() {
 	uint N;                                           // Quantidade de números
 	luint base, max, min;                             // Número base, máximo e mínimo
-	double avg;                                       // Média
+	double avg;                                       // Média aritmética
 
 	printf("No. NUMEROS: ");
 	scanf("%u", &N);
