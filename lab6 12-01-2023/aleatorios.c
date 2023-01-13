@@ -19,7 +19,7 @@ int main() {
 	uint N;                                               // Quantidade de elementos
 	uint min;                                             // Menor elemento
 	uint max;                                             // Maior elemento
-	double avg;
+	double avg;                                           // Média
  
 	printf("No. ELEMENTOS: ");
 	scanf("%u", &N);
