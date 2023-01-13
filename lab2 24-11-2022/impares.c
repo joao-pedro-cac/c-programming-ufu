@@ -16,7 +16,7 @@ int main() {
 	scanf("%d %d", &a, &b);
 
 	// Captura de erros
-	if (a > b) {
+	if (a >= b) {
 		printf("\nERRO! O número a deve ser menor que b...\n");
 		return -1;
 	}
