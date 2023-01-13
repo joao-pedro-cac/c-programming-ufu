@@ -20,7 +20,7 @@ int main() {
 	printf("\n");
 
 	// Captura de erros
-	if (a > b) {
+	if (a >= b) {
 		printf("ERRO! O número a deve ser menor que b...\n");
 		return -1;
 	}
