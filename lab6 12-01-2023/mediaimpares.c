@@ -13,7 +13,7 @@ typedef unsigned int uint;
 double avg(int *nums, uint size);
 
 int main() {
-	uint N;
+	uint N;                                                  // Quantidade de elementos
 	int s;                                                   // Número inicial
 
 	printf("No. NUMEROS: ");
