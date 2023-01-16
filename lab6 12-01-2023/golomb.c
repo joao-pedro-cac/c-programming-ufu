@@ -10,13 +10,14 @@
 
 typedef unsigned int uint;
 
-int golomb(uint n);
+uint golomb(uint n);
+double averageInterval(uint *nums, uint a, uint b);
 void swap(uint *a, uint *b);
 
 int main() {
 	uint a, b;                                                  // Índices inicial e final
 	uint first, last;                                           // Primeiro e último elemento
-	double avg = 0;                                             // Média aritmética
+	double avg;                                                 // Média aritmética
 
 	printf("INDICES: ");
 	scanf("%u %u", &a, &b);
@@ -24,19 +25,14 @@ int main() {
 	if (b < a) swap(&a, &b);                                    // 'b' deve ser maior ou igual a 'a'
 
 
-	uint *nums = (uint *) malloc((b - a + 1) * sizeof(uint));   // Vetor de números
+	uint *nums = (uint *) malloc((b + 1) * sizeof(uint));   // Vetor de números
+	for (uint i = 0; i <= b; i++) nums[i] = golomb(i);
 
-	for (uint i = 0; i <= b; i++) {
-		nums[i] = golomb(a + i);
-		if (i < b - a + 1) avg += nums[i];                      // Evita percorrer um vetor grande duas vezes
-		if (i == 0) first = nums[i];
-		if (i == b) last = nums[i];
-	}
-	avg /= b - a + 1;
+	avg = averageInterval(nums, a, b);
 
 
-	printf("PRIMEIRO: %u\n", nums[0]);
-	printf("ULTIMO:   %u\n", nums[b - a]);
+	printf("PRIMEIRO: %u\n", nums[a]);
+	printf("ULTIMO:   %u\n", nums[b]);
 	printf("MEDIA:    %lg\n", avg);
 
 	free(nums);
@@ -45,9 +41,16 @@ int main() {
 }
 
 // Relação de ocorrência da sequência de Golomb
-int golomb(uint n) {
+uint golomb(uint n) {
 	if (n == 0) return 1;
 	return 1 + golomb(n - golomb(golomb(n - 1) - 1));
+}
+
+// Média aritmética em um intervalo
+double averageInterval(uint *nums, uint a, uint b) {
+	double avg = 0;
+	for (uint i = a; i <= b; i++) avg += nums[i];
+	return avg / (b - a + 1);
 }
 
 // Troca de valor entre duas variáveis
