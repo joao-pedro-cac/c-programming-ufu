@@ -6,7 +6,7 @@
 
 - `inside.c`: Given a text and a shorter string, highlights the first occurrence of the string in the text. Prints a special message in case of absence.
 - `mediaimpares.c`: Creates an array of _N_ odd numbers starting at *s*, then outputs the overall arithmetic mean and the second last element.
-- `malabarista.c`: Creates a [juggler sequence](https://en.wikipedia.org/wiki/Juggler_sequence) of _N_ numbers starting at _base_ and displays the general average as well as the smallest and largest elements.
+- `malabarista.c`: Creates a [juggler sequence](https://en.wikipedia.org/wiki/Juggler_sequence) of _N_ numbers starting at _base_ and displays their average as well as the smallest and largest elements.
 - `somavetores.c`: Defines a sequence of the first _N_ positive odd numbers and another one with the first _M_ divisors of 4, starting at 0. After that, sums both sequences in case *N = M* or writes an error message otherwise.
 
 
