@@ -8,3 +8,4 @@ This repo stores C programs created as a student of _Universidade Federal de Ube
 - **lab4 08-12-2022:** Collection of problems #4 (December 8th, 2022).
 - **lab5 05-01-2023:** Collection of problems #5 (January 5th, 2023).
 - **lab6 12-01-2023:** Collection of problems #6 (January 12th, 2023).
+- **lab7 19-01-2023:** Unique problem #7 (January 19th, 2023).
