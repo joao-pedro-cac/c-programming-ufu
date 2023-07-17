@@ -6,7 +6,7 @@
 
 - `aritmInt.c`: Aritmética básica com dois inteiros.
 - `somaGauss.c`: Soma dos primeiros _n_ números naturais.
-- `fatorial.c`: Função de fatorial.
+- `fatorial.c`: Função de [fatorial](https://en.wikipedia.org/wiki/Factorial).
 - `imc.c`: Calculadora de IMC ([Índice de Massa Corporal](https://en.wikipedia.org/wiki/Body_mass_index)).
 
 
