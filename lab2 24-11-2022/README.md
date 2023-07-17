@@ -5,14 +5,14 @@
 ## Problemas Fáceis
 
 - `dist.c`: Distância entre dois pontos em um plano cartesiano.
-- `impares.c`: Imprime todos os números ímpares entre dois valores.
+- `impares.c`: Imprime todos os números ímpares em um intervalo.
 - `areaTriRet.c`: Área de um triângulo retângulo.
 - `divisores.c`: Lista todos os divisores de um número.
 
 
 ## Problemas Médios
 
-- `somaPrimos.c`: Soma de todos os números primos entre dois valores.
+- `somaPrimos.c`: Soma de todos os números primos em um intervalo.
 - `somaSeqHailst.c`: Soma de todos os números de uma sequência de Hailstone de _n_ a 1, gerada pela [Conjectura de Collatz](https://en.wikipedia.org/wiki/Collatz_conjecture).
 
 
