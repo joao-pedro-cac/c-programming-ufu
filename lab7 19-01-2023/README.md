@@ -1,5 +1,7 @@
-# January 19th, 2023
+# 19 de Janeiro de 2023
 
 ---
 
-`txtFibonacci.c`: Given a number _N_ ranging from 1 to 94, creates an array containing the _N_ first numbers of Fibonacci sequence. The algorithm then displays its last element and writes all numbers in a text file called *fibonacci.txt*.
+## Problema Único
+
+`txtFibonacci.c`: Gera uma [Sequência de Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_sequence), escrevendo-a no arquivo _fibonacci.txt_ e exibindo seu último termo no terminal.
