@@ -1,19 +1,19 @@
-# December 1st, 2022
+# 1 de Dezembro de 2022
 
 ---
 
-## Easy problems
+## Problemas Fáceis
 
-- `minMax.c`: Given a list of numbers, outputs them and prints **>** right after the largest one and **<** right after the smallest one.
-- `quaisDiv.c`: Given a sequence of numbers and a number _n_, prints their elements followed by an **#** if the number is a divisor of _n_.
-- `somatorio.c`: Given some numbers, outputs their sum.
-- `produtorio.c`: Given some numbers, outputs their product.
+- `minMax.c`: Imprime uma lista de números, inserindo um "**>**" logo após o maior valor e um "**<**" logo após o menor.
+- `quaisDiv.c`: Imprime uma lista de números, inserindo um "**#**" logo após os divisores de um dado valor _n_.
+- `somatorio.c`: Gera a soma de todos os números de uma lista.
+- `produtorio.c`: Gera o produto de todos os números de uma lista.
 
-## Medium problems
+## Problemas Médios
 
-- `muSigma.c`: Given some numbers, displays their [arithmetic average](https://en.wikipedia.org/wiki/Arithmetic_mean) and [standard deviation](https://en.wikipedia.org/wiki/Standard_deviation).
-- `remNegativos.c`: Given a sequence of numbers, displays every non-negative element. If there are none, outputs _vazio_ (empty), meaning "there are no non-negative elements".
+- `muSigma.c`: Imprime a [média aritmética](https://en.wikipedia.org/wiki/Arithmetic_mean) e o [desvio padrão](https://en.wikipedia.org/wiki/Standard_deviation) de uma coleção de números.
+- `remNegativos.c`: Imprime todos os elementos não-negativos de uma lista numérica. Caso não haja elementos, escreve "_vazio_".
 
-## Hard problems
+## Problema Difícil
 
-- `diferencas.c`: Given an array _A_ of _n_ numbers, creates a list _B_ of _n - 1_ numbers, such that the *i*th element of _B_ equals the (*i + 1*)th element of _A_ minus the *i*th element of _A_. The list _B_ is then displayed as well as its smallest and largest numbers.
+- `diferencas.c`: Dada uma lista numérica _A_, produz uma lista _B_ cujo _i_-ésimo elemento é a diferença entre o _(i+1)_-ésimo e o _i_-ésimo números de _A_. Ao fim, exibe os elementos de _B_, assim como seu maior e menor valor.
