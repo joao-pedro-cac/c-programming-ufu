@@ -1,21 +1,21 @@
-# November 3rd, 2022
+# 3 de Novembro de 2022
 
 ---
 
-## Easy problems
+## Problemas Fáceis
 
-- `aritmInt.c`: Basic arithmetic with 2 integers (addition, subtraction, multiplication, integer division and remainder).
-- `somaGauss.c`: Sum of the first _n_ natural numbers.
-- `fatorial.c`: Factorial function.
-- `imc.c`: BMI calculator.
-
-
-## Medium problems
-
-- `somaDivisores.c`: Sum of all positive factors of a number.
-- `fibonacci.c`: Fibonacci sequence with an unusual form of **for** loop.
+- `aritmInt.c`: Aritmética básica com dois inteiros.
+- `somaGauss.c`: Soma dos primeiros _n_ números naturais.
+- `fatorial.c`: Função de fatorial.
+- `imc.c`: Calculadora de IMC ([Índice de Massa Corporal](https://en.wikipedia.org/wiki/Body_mass_index)).
 
 
-## Hard problems
+## Problemas Médios
 
-- `cosTaylor.c`: Approximation of cos(_πx_) by Taylor series. The sum goes from 1 to an integer _n_ rather than to infinity.
+- `somaDivisores.c`: Soma de todos os divisores positivos de um número.
+- `fibonacci.c`: [Sequência de Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_sequence) usando um laço **for** de maneira incomum.
+
+
+## Problema Difícil
+
+- `cosTaylor.c`: Aproximação de **cos(_πx_)** utilizando uma [Série de Taylor](https://en.wikipedia.org/wiki/Taylor_series).
