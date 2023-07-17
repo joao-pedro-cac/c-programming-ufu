@@ -1,19 +1,19 @@
-# January 5th, 2023
+# 5 de Janeiro de 2023
 
 ---
 
-## Easy problems
+## Problemas Fáceis
 
-- `mdc.c`: [Greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) (GDC) of two integers.
-- `fib.c`: *n*th term of the Fibonacci Sequence.
-- `altura.c`: Given a height value in meters, displays it formatted as [METERS]m[CENTIMETERS].
-- `datas.c`: Given a date, exhibits it in four distinct formats.
+- `mdc.c`: [Máximo divisor comum](https://en.wikipedia.org/wiki/Greatest_common_divisor) (MDC) de dois números.
+- `fib.c`: Imprime o *n*-ésimo termo da [Sequência de Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_sequence).
+- `altura.c`: Escreve um valor de altura especificado no formato [METROS]m[CENTÍMETROS].
+- `datas.c`: Exibe uma data especificada em quatro formatos distintos.
 
-## Medium problems
+## Problemas Médios
 
-- `aproxpi.c`: Approximation to pi by using the [Gregory-Leibniz Series](https://crypto.stanford.edu/pbc/notes/pi/glseries.html).
-- `racionais.c`: Basic arithmetic with rational numbers represented as fractions.
+- `aproxpi.c`: Aproximação de π utilizando a [Série de Gregory-Leibniz](https://crypto.stanford.edu/pbc/notes/pi/glseries.html).
+- `racionais.c`: Aritmética com números racionais, representados por frações.
 
-## Hard problems
+## Problema Difícil
 
-- `cadastro.c`: Basic people register.
+- `cadastro.c`: Cadastro de pessoas.
