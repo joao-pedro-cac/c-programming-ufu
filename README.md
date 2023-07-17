@@ -2,6 +2,8 @@
 
 Este repositório contém programas em C exigidos aos estudantes pela Universidade Federal de Uberlândia (UFU). Os algoritmos resolvem diversos problemas emitidos pelo professor e se encontram divididos em sete pastas **lab**, nomeados de acordo com o dia das aulas.
 
+**OBS:** Os algoritmos se encontram predominantemente em português.
+
 - **lab1 03-11-2022:** Coleção de problemas #1
 - **lab2 24-11-2022:** Coleção de problemas #2
 - **lab3 01-12-2022:** Coleção de problemas #3
