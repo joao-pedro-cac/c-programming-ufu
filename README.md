@@ -1,11 +1,11 @@
-# C Programming
+# Programação C (UFU)
 
-This repo stores C programs created as a student of _Universidade Federal de Uberlândia_ (Federal University of Uberlândia). They are divided into **lab** folders corresponding to a unique weekly set of problems. There are 7 lab folders at total, each one comprised of fours easy problems, two medium problems and a hard problem.
+Este repositório contém programas em C exigidos aos estudantes pela Universidade Federal de Uberlândia (UFU). Os algoritmos resolvem diversos problemas emitidos pelo professor e se encontram divididos em sete pastas **lab**, nomeados de acordo com o dia das aulas.
 
-- **lab1 03-11-2022:** Collection of problems #1 (November 3rd, 2022).
-- **lab2 24-11-2022:** Collection of problems #2 (November 24th, 2022).
-- **lab3 01-12-2022:** Collection of problems #3 (December 1st, 2022).
-- **lab4 08-12-2022:** Collection of problems #4 (December 8th, 2022).
-- **lab5 05-01-2023:** Collection of problems #5 (January 5th, 2023).
-- **lab6 12-01-2023:** Collection of problems #6 (January 12th, 2023).
-- **lab7 19-01-2023:** Unique problem (January 19th, 2023).
+- **lab1 03-11-2022:** Coleção de problemas #1
+- **lab2 24-11-2022:** Coleção de problemas #2
+- **lab3 01-12-2022:** Coleção de problemas #3
+- **lab4 08-12-2022:** Coleção de problemas #4
+- **lab5 05-01-2023:** Coleção de problemas #5
+- **lab6 12-01-2023:** Coleção de problemas #6
+- **lab7 19-01-2023:** Problema único
